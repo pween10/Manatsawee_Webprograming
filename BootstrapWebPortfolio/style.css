@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Quicksand&family=Shadows+Into+Light&display=swap');
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+/*modify css bootstrap
+*/
+.navbar-brand{
+    font-family: 'Itim', cursive;
+    font-size: 20px;
+}
+.fontfotter{
+    font-family: 'Itim', cursive;
+    font-size: 20px;
+}
+.bg-blue{
+    background-color: aquamarine;
+}
+.imsize{
+    height: 400px;
+    width: 400px;
+}
+.sizesd{
+    height: 300px;
+    height: 300px;
+}

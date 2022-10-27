@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <script>
+        function oddEventnumber (n){
+            let check =n%2;
+            if(check == 0){
+                document.write(n + " is event number" );
+            }else{
+                document.write(n + " is odd number" );
+            }
+        }
+        // Anonymouus fuction
+        let test = function (){
+            return '<br> Hello Annonymous function'; 
+            }
+        // Arrow
+        let test2 = () => {return '<br>Hello Arrow Fuction';
+    }
+        let test3 = (a,b)=>{ return 'sum =' + a+b ;
+    }
+        function hello(){
+            document.querySelector('h1').innerHTML = "Good bye!";
+        }
+
+
+    </script>
+</head>
+<body>
+    <h1>JavaScript</h1>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p> 
+    <button onclick="hello()">Click here</button>
+    
+
+    <script>
+        let num = 15;
+         oddEventnumber (num)  ;
+         document.write(test());
+         document.write(test2());
+         console.log(test3(1,2));
+    </script>
+
+    
+
+</body>
+</html>
